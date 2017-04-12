@@ -13,6 +13,8 @@
 		1A0DDB431E9BEF9E001F15FE /* MyCollection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DDB411E9BEF9E001F15FE /* MyCollection.xcdatamodeld */; };
 		1A0DDB451E9BEF9E001F15FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0DDB441E9BEF9E001F15FE /* Assets.xcassets */; };
 		1A0DDB481E9BEF9E001F15FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0DDB461E9BEF9E001F15FE /* LaunchScreen.storyboard */; };
+		1A42B7661E9D587C00C3A6FD /* deadpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A42B7651E9D587C00C3A6FD /* deadpool.jpg */; };
+		1A42B7681E9D5A2300C3A6FD /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42B7671E9D5A2300C3A6FD /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1A0DDB441E9BEF9E001F15FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0DDB471E9BEF9E001F15FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A0DDB491E9BEF9E001F15FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A42B7651E9D587C00C3A6FD /* deadpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deadpool.jpg; sourceTree = "<group>"; };
+		1A42B7671E9D5A2300C3A6FD /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		1A0DDB391E9BEF9E001F15FE /* MyCollection */ = {
 			isa = PBXGroup;
 			children = (
+				1A42B7651E9D587C00C3A6FD /* deadpool.jpg */,
 				1A0DDB3A1E9BEF9E001F15FE /* AppDelegate.swift */,
 				1A0DDB3C1E9BEF9E001F15FE /* ViewController.swift */,
+				1A42B7671E9D5A2300C3A6FD /* CollectionViewController.swift */,
 				1A0DDB3E1E9BEF9E001F15FE /* Main.storyboard */,
 				1A0DDB441E9BEF9E001F15FE /* Assets.xcassets */,
 				1A0DDB461E9BEF9E001F15FE /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 				1A0DDB481E9BEF9E001F15FE /* LaunchScreen.storyboard in Resources */,
 				1A0DDB451E9BEF9E001F15FE /* Assets.xcassets in Resources */,
 				1A0DDB401E9BEF9E001F15FE /* Main.storyboard in Resources */,
+				1A42B7661E9D587C00C3A6FD /* deadpool.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A42B7681E9D5A2300C3A6FD /* CollectionViewController.swift in Sources */,
 				1A0DDB3D1E9BEF9E001F15FE /* ViewController.swift in Sources */,
 				1A0DDB431E9BEF9E001F15FE /* MyCollection.xcdatamodeld in Sources */,
 				1A0DDB3B1E9BEF9E001F15FE /* AppDelegate.swift in Sources */,
@@ -303,6 +311,7 @@
 				1A0DDB4E1E9BEF9E001F15FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
